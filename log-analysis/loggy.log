@@ -1,0 +1,173 @@
+Feb 28 19:18:58 kali gnome-keyring-daemon[1180]: The Secret Service was already initialized
+Feb 28 19:18:58 kali gnome-keyring-daemon[1161]: discover_other_daemon: 1
+Feb 28 19:18:59 kali gcr-prompter[1245]: GLib-GIO: Using cross-namespace EXTERNAL authentication (this will deadlock if server is GDBus < 2.73.3)
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: bus acquired: org.gnome.keyring.SystemPrompter
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: registering prompter
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: bus acquired: org.gnome.keyring.PrivatePrompter
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: acquired name: org.gnome.keyring.SystemPrompter
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: received BeginPrompting call from callback /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: preparing a prompt for callback /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: creating new GcrPromptDialog prompt
+Feb 28 19:18:59 kali gcr-prompter[1245]: GLib-GIO: _g_io_module_get_default: Found default implementation gvfs (GDaemonVfs) for ‘gio-vfs’
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: automatically selecting secret exchange protocol
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: generating public key
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: beginning the secret exchange: [sx-aes-1]\npublic=U+kwmAIns0P45WPGGQk9lSldib9kHwxnU+WLGoUviJ1ue91Dm5o15/MhlArp8J8s1T6wPNAPUeDm6j/ODRyFWHetTEoYJePNEi9mWybyyx1PZKKnbxw/Zfww6S5zB+oarly15a0W5TTlakNFC9xlv9dVf9G9DzNYjEVg5YHlAFwREDd36lIf11VwOsLq/tkYZ4THAHA6iBsKh/zHy74FBvortcrGLrZOxzEzcnhUOsY/uuXFPKCPCOG1msfEIT3W\n
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: calling the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: acquired name: org.gnome.keyring.PrivatePrompter
+Feb 28 19:18:59 kali gcr-prompter[1245]: GLib-GIO: GTask init_compose_table_async (source object: (nil), source tag: 0x7fe59ea29210) finalized without ever returning (using g_task_return_*()). This potentially indicates a bug in the program.
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: returned from the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: received PerformPrompt call from callback /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: receiving secret exchange: [sx-aes-1]\npublic=CD2UjcLMS1hXcPLhglDVn991Za4Rn6PfdFHNGd9nRzZaBpxwyBa6CVF4BdXFC1vgjRuwv8Zh4wr49cbyCyXlFi+7clx/liDchecQczposBSJmRT5SMwPAOd5Amd7zNZ2TRwph51ySpQkiZKhz0ogvJSzhWNCluE6A2YjQ/NasSDlVgXVA0Vo4lJ8kmVzsSIHSELhDF0N/kFjZzzy+xPeb4JiRtsj6q33sCRU7KJNmF1VXerMeOUvkwiHl5d8TGAm\n
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: deriving shared transport key
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: deriving transport key
+Feb 28 19:18:59 kali gcr-prompter[1245]: Gcr: starting password prompt for callback /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: completed password prompt for callback :1.42@/org/gnome/keyring/Prompt/p2
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: sending the secret exchange: [sx-aes-1]\npublic=U+kwmAIns0P45WPGGQk9lSldib9kHwxnU+WLGoUviJ1ue91Dm5o15/MhlArp8J8s1T6wPNAPUeDm6j/ODRyFWHetTEoYJePNEi9mWybyyx1PZKKnbxw/Zfww6S5zB+oarly15a0W5TTlakNFC9xlv9dVf9G9DzNYjEVg5YHlAFwREDd36lIf11VwOsLq/tkYZ4THAHA6iBsKh/zHy74FBvortcrGLrZOxzEzcnhUOsY/uuXFPKCPCOG1msfEIT3W\n
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: calling the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: returned from the PromptReady method on /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: received PerformPrompt call from callback /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: closing the prompt
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: couldn't find the callback for prompting operation /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: couldn't find the callback for prompting operation /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: stopping prompting for operation /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: couldn't find the callback for prompting operation /org/gnome/keyring/Prompt/p2@:1.42
+Feb 28 19:19:01 kali gcr-prompter[1245]: Gcr: calling the PromptDone method on /org/gnome/keyring/Prompt/p2@:1.42, and ignoring reply
+Feb 28 19:19:06 kali systemd: pam_unix(systemd-user:session): session closed for user lightdm
+Feb 28 19:19:11 kali gcr-prompter[1245]: Gcr: 10 second inactivity timeout, quitting
+Feb 28 19:19:11 kali gcr-prompter[1245]: Gcr: unregistering prompter
+Feb 28 19:19:11 kali gcr-prompter[1245]: Gcr: disposing prompter
+Feb 28 19:19:11 kali gcr-prompter[1245]: Gcr: finalizing prompter
+Feb 28 19:19:14 kali polkitd(authority=local): Registered Authentication Agent for unix-process:1552:2669 (system bus name :1.57 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 28 19:19:17 kali polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:kali to gain TEMPORARY authorization for action org.freedesktop.systemd1.manage-units for system-bus-name::1.58 [systemctl start ssh] (owned by unix-user:kali)
+Feb 28 19:19:17 kali sshd[1580]: Server listening on 0.0.0.0 port 22.
+Feb 28 19:19:17 kali sshd[1580]: Server listening on :: port 22.
+Feb 28 19:19:17 kali polkitd(authority=local): Unregistered Authentication Agent for unix-process:1552:2669 (system bus name :1.57, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 28 19:19:43 kali sshd[1700]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=root
+Feb 28 19:19:46 kali sshd[1700]: Failed password for root from 10.123.110.1 port 53478 ssh2
+Feb 28 19:19:47 kali sshd[1700]: Connection closed by authenticating user root 10.123.110.1 port 53478 [preauth]
+Feb 28 19:20:40 kali sshd[1943]: Accepted password for kali from 10.123.110.1 port 59350 ssh2
+Feb 28 19:20:40 kali sshd[1943]: pam_unix(sshd:session): session opened for user kali(uid=1000) by (uid=0)
+Feb 28 19:20:40 kali systemd-logind[457]: New session 4 of user kali.
+Feb 28 19:20:41 kali sshd[1953]: Received disconnect from 10.123.110.1 port 59350:11: disconnected by user
+Feb 28 19:20:41 kali sshd[1953]: Disconnected from user kali 10.123.110.1 port 59350
+Feb 28 19:20:41 kali sshd[1943]: pam_unix(sshd:session): session closed for user kali
+Feb 28 19:20:41 kali systemd-logind[457]: Session 4 logged out. Waiting for processes to exit.
+Feb 28 19:20:41 kali systemd-logind[457]: Removed session 4.
+Feb 28 19:25:01 kali CRON[3044]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Feb 28 19:25:01 kali CRON[3044]: pam_unix(cron:session): session closed for user root
+Feb 28 19:27:04 kali polkitd(authority=local): Registered Authentication Agent for unix-process:3572:49626 (system bus name :1.63 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 28 19:27:06 kali polkitd(authority=local): Operator of unix-session:2 successfully authenticated as unix-user:kali to gain TEMPORARY authorization for action org.freedesktop.systemd1.reload-daemon for system-bus-name::1.64 [systemctl daemon-reload] (owned by unix-user:kali)
+Feb 28 19:27:06 kali polkitd(authority=local): Unregistered Authentication Agent for unix-process:3572:49626 (system bus name :1.63, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 28 19:27:06 kali polkitd(authority=local): Registered Authentication Agent for unix-process:3616:49881 (system bus name :1.66 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 28 19:27:08 kali polkit-agent-helper-1[3622]: pam_unix(polkit-1:auth): authentication failure; logname= uid=1000 euid=0 tty= ruser=kali rhost=  user=kali
+Feb 28 19:27:12 kali polkitd(authority=local): Operator of unix-session:2 FAILED to authenticate to gain authorization for action org.freedesktop.systemd1.reload-daemon for system-bus-name::1.67 [systemctl daemon-reload] (owned by unix-user:kali)
+Feb 28 19:27:12 kali polkitd(authority=local): Unregistered Authentication Agent for unix-process:3616:49881 (system bus name :1.66, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 28 19:27:12 kali polkitd(authority=local): Registered Authentication Agent for unix-process:3568:49622 (system bus name :1.68 [/usr/bin/pkttyagent --notify-fd 5 --fallback], object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8)
+Feb 28 19:27:14 kali polkitd(authority=local): Operator of unix-session:2 FAILED to authenticate to gain authorization for action org.freedesktop.systemd1.manage-unit-files for system-bus-name::1.69 [systemctl disable ssh] (owned by unix-user:kali)
+Feb 28 19:27:14 kali polkitd(authority=local): Unregistered Authentication Agent for unix-process:3568:49622 (system bus name :1.68, object path /org/freedesktop/PolicyKit1/AuthenticationAgent, locale en_US.UTF-8) (disconnected from bus)
+Feb 28 19:27:24 kali sudo:     kali : unable to resolve host kali: Name or service not known
+Feb 28 19:27:24 kali sudo:     kali : problem with defaults entries ; TTY=pts/0 ; PWD=/home/kali ; USER=root ; 
+Feb 28 19:30:09 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl stop ssh
+Feb 28 19:30:09 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 28 19:30:09 kali sshd[1580]: Received signal 15; terminating.
+Feb 28 19:30:09 kali sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 19:31:36 kali sudo:     kali : unable to resolve host kali: Name or service not known
+Feb 28 19:31:36 kali sudo:     kali : problem with defaults entries ; TTY=pts/0 ; PWD=/home/kali ; USER=root ; 
+Feb 28 19:31:36 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl start ssh
+Feb 28 19:31:36 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 28 19:31:36 kali sshd[4790]: Server listening on 0.0.0.0 port 22.
+Feb 28 19:31:36 kali sshd[4790]: Server listening on :: port 22.
+Feb 28 19:31:36 kali sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 19:31:44 kali sudo:     kali : unable to resolve host kali: Name or service not known
+Feb 28 19:31:44 kali sudo:     kali : problem with defaults entries ; TTY=pts/0 ; PWD=/home/kali ; USER=root ; 
+Feb 28 19:31:44 kali sudo:     kali : TTY=pts/0 ; PWD=/home/kali ; USER=root ; COMMAND=/usr/bin/systemctl status ssh
+Feb 28 19:31:44 kali sudo: pam_unix(sudo:session): session opened for user root(uid=0) by (uid=1000)
+Feb 28 19:31:44 kali sudo: pam_unix(sudo:session): session closed for user root
+Feb 28 19:31:49 kali sshd[4874]: Received disconnect from 10.123.110.1 port 37290:11: Bye Bye [preauth]
+Feb 28 19:31:49 kali sshd[4874]: Disconnected from authenticating user kali 10.123.110.1 port 37290 [preauth]
+Feb 28 19:31:49 kali sshd[4790]: error: beginning MaxStartups throttling
+Feb 28 19:31:49 kali sshd[4790]: drop connection #13 from [10.123.110.1]:37428 on [10.123.82.7]:22 past MaxStartups
+Feb 28 19:31:49 kali sshd[4883]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:49 kali sshd[4881]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:49 kali sshd[4877]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:49 kali sshd[4884]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:49 kali sshd[4878]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:49 kali sshd[4880]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:49 kali sshd[4879]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:49 kali sshd[4891]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:49 kali sshd[4886]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:49 kali sshd[4885]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:49 kali sshd[4882]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:50 kali sshd[4888]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:50 kali sshd[4876]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:50 kali sshd[4887]: pam_unix(sshd:auth): authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:52 kali sshd[4881]: Failed password for kali from 10.123.110.1 port 37338 ssh2
+Feb 28 19:31:52 kali sshd[4879]: Failed password for kali from 10.123.110.1 port 37326 ssh2
+Feb 28 19:31:52 kali sshd[4880]: Failed password for kali from 10.123.110.1 port 37340 ssh2
+Feb 28 19:31:52 kali sshd[4878]: Failed password for kali from 10.123.110.1 port 37328 ssh2
+Feb 28 19:31:52 kali sshd[4877]: Failed password for kali from 10.123.110.1 port 37306 ssh2
+Feb 28 19:31:52 kali sshd[4883]: Failed password for kali from 10.123.110.1 port 37368 ssh2
+Feb 28 19:31:52 kali sshd[4886]: Failed password for kali from 10.123.110.1 port 37394 ssh2
+Feb 28 19:31:52 kali sshd[4884]: Failed password for kali from 10.123.110.1 port 37386 ssh2
+Feb 28 19:31:52 kali sshd[4882]: Failed password for kali from 10.123.110.1 port 37370 ssh2
+Feb 28 19:31:52 kali sshd[4885]: Failed password for kali from 10.123.110.1 port 37384 ssh2
+Feb 28 19:31:52 kali sshd[4891]: Failed password for kali from 10.123.110.1 port 37442 ssh2
+Feb 28 19:31:52 kali sshd[4887]: Failed password for kali from 10.123.110.1 port 37396 ssh2
+Feb 28 19:31:52 kali sshd[4876]: Failed password for kali from 10.123.110.1 port 37308 ssh2
+Feb 28 19:31:52 kali sshd[4888]: Failed password for kali from 10.123.110.1 port 37426 ssh2
+Feb 28 19:31:56 kali sshd[4879]: Failed password for kali from 10.123.110.1 port 37326 ssh2
+Feb 28 19:31:56 kali sshd[4885]: Failed password for kali from 10.123.110.1 port 37384 ssh2
+Feb 28 19:31:56 kali sshd[4884]: Failed password for kali from 10.123.110.1 port 37386 ssh2
+Feb 28 19:31:56 kali sshd[4891]: Failed password for kali from 10.123.110.1 port 37442 ssh2
+Feb 28 19:31:56 kali sshd[4880]: Failed password for kali from 10.123.110.1 port 37340 ssh2
+Feb 28 19:31:56 kali sshd[4887]: Failed password for kali from 10.123.110.1 port 37396 ssh2
+Feb 28 19:31:56 kali sshd[4881]: Failed password for kali from 10.123.110.1 port 37338 ssh2
+Feb 28 19:31:56 kali sshd[4886]: Failed password for kali from 10.123.110.1 port 37394 ssh2
+Feb 28 19:31:56 kali sshd[4888]: Failed password for kali from 10.123.110.1 port 37426 ssh2
+Feb 28 19:31:56 kali sshd[4883]: Failed password for kali from 10.123.110.1 port 37368 ssh2
+Feb 28 19:31:56 kali sshd[4882]: Failed password for kali from 10.123.110.1 port 37370 ssh2
+Feb 28 19:31:56 kali sshd[4878]: Failed password for kali from 10.123.110.1 port 37328 ssh2
+Feb 28 19:31:56 kali sshd[4877]: Failed password for kali from 10.123.110.1 port 37306 ssh2
+Feb 28 19:31:56 kali sshd[4876]: Failed password for kali from 10.123.110.1 port 37308 ssh2
+Feb 28 19:31:57 kali sshd[4885]: Connection closed by authenticating user kali 10.123.110.1 port 37384 [preauth]
+Feb 28 19:31:57 kali sshd[4884]: Connection closed by authenticating user kali 10.123.110.1 port 37386 [preauth]
+Feb 28 19:31:57 kali sshd[4884]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:57 kali sshd[4876]: Connection closed by authenticating user kali 10.123.110.1 port 37308 [preauth]
+Feb 28 19:31:57 kali sshd[4876]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:57 kali sshd[4885]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:57 kali sshd[4886]: Connection closed by authenticating user kali 10.123.110.1 port 37394 [preauth]
+Feb 28 19:31:57 kali sshd[4886]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:57 kali sshd[4887]: Connection closed by authenticating user kali 10.123.110.1 port 37396 [preauth]
+Feb 28 19:31:57 kali sshd[4887]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:57 kali sshd[4888]: Connection closed by authenticating user kali 10.123.110.1 port 37426 [preauth]
+Feb 28 19:31:57 kali sshd[4888]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:58 kali sshd[4891]: Connection closed by authenticating user kali 10.123.110.1 port 37442 [preauth]
+Feb 28 19:31:58 kali sshd[4891]: PAM 1 more authentication failure; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:58 kali sshd[4879]: Accepted password for kali from 10.123.110.1 port 37326 ssh2
+Feb 28 19:31:58 kali sshd[4879]: pam_unix(sshd:session): session opened for user kali(uid=1000) by (uid=0)
+Feb 28 19:31:58 kali systemd-logind[457]: New session 6 of user kali.
+Feb 28 19:31:58 kali sshd[4879]: pam_unix(sshd:session): session closed for user kali
+Feb 28 19:31:58 kali systemd-logind[457]: Session 6 logged out. Waiting for processes to exit.
+Feb 28 19:31:58 kali systemd-logind[457]: Removed session 6.
+Feb 28 19:31:59 kali sshd[4881]: Failed password for kali from 10.123.110.1 port 37338 ssh2
+Feb 28 19:31:59 kali sshd[4882]: Failed password for kali from 10.123.110.1 port 37370 ssh2
+Feb 28 19:31:59 kali sshd[4880]: Failed password for kali from 10.123.110.1 port 37340 ssh2
+Feb 28 19:31:59 kali sshd[4878]: Failed password for kali from 10.123.110.1 port 37328 ssh2
+Feb 28 19:31:59 kali sshd[4877]: Failed password for kali from 10.123.110.1 port 37306 ssh2
+Feb 28 19:31:59 kali sshd[4883]: Failed password for kali from 10.123.110.1 port 37368 ssh2
+Feb 28 19:31:59 kali sshd[4878]: Connection closed by authenticating user kali 10.123.110.1 port 37328 [preauth]
+Feb 28 19:31:59 kali sshd[4878]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:59 kali sshd[4881]: Connection closed by authenticating user kali 10.123.110.1 port 37338 [preauth]
+Feb 28 19:31:59 kali sshd[4881]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:59 kali sshd[4880]: Connection closed by authenticating user kali 10.123.110.1 port 37340 [preauth]
+Feb 28 19:31:59 kali sshd[4880]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:31:59 kali sshd[4882]: Connection closed by authenticating user kali 10.123.110.1 port 37370 [preauth]
+Feb 28 19:31:59 kali sshd[4882]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:32:00 kali sshd[4883]: Connection closed by authenticating user kali 10.123.110.1 port 37368 [preauth]
+Feb 28 19:32:00 kali sshd[4883]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+Feb 28 19:32:00 kali sshd[4877]: Connection closed by authenticating user kali 10.123.110.1 port 37306 [preauth]
+Feb 28 19:32:00 kali sshd[4877]: PAM 2 more authentication failures; logname= uid=0 euid=0 tty=ssh ruser= rhost=10.123.110.1  user=kali
+                                                                                                                                          
