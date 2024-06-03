@@ -3,18 +3,33 @@ You are a highly skilled secret agent working for an elite intelligence agency. 
 
 ## Questions
 Q: What type of attack has occurred?
->! A: brute-force
+<details>
+	<summary>Answer</summary>
+	A: brute-force
+</details>
+
 
 Q: What service was attacked? 
->! A: SSH
+<details>
+	<summary>Answer</summary>
+A: SSH
+</details>
 
 Q: What IP address was involved with this attack?
->! A: 10.123.110.1
+<details>
+	<summary>Answer</summary>
+A: 10.123.110.1
+</details>
 
 Q: What user was being attacked?
->! A: kali
+<details>
+	<summary>Answer</summary>
+A: kali
+</details>
 
 Q: Did the attacker login successfully?
->! A: Yes
+<details>
+	<summary>Answer</summary>
+A: Yes
+</details>
 
->! Test spoiler
