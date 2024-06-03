@@ -3,19 +3,37 @@ Welcome, Cyber Sleuths! Your mission, should you choose to accept it, is to dive
 
 ## Questions
 Q: What are the IP addresses of the people in communication?
->! A: 192.168.56.107, 192.168.56.123
+<details>
+	<summary>Answer</summary>
+A: 192.168.56.107, 192.168.56.123
+</details>
 
 Q: What is the data format that the messages are being sent in?
->! A: JSON
+<details>
+	<summary>Answer</summary>
+A: JSON
+</details>
 
 Q: What is the encoded format that the individuals are using to obscure their communications?
->! A: Base64
+<details>
+	<summary>Answer</summary>
+A: Base64
+</details>
 
 Q: What are the pseudonames involved within these messages?
->! A: The Shadow Scourge, Dr.Malkovich
+<details>
+	<summary>Answer</summary>
+A: The Shadow Scourge, Dr.Malkovich
+</details>
 
 Q: What is the name of their super secret project?
->! A: Project Pandora
+<details>
+	<summary>Answer</summary>
+A: Project Pandora
+</details
 
 Q: Where will the group meet next?
->! A: Outside of JB
+<details>
+	<summary>Answer</summary>
+A: Outside of JB
+</details>
